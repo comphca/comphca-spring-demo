@@ -12,7 +12,7 @@
     <module>002-spring-framework-helloworld-javaConfig</module>
     <module>003-spring-framework-helloworld-annotation</module>
     <module>004-spring-framework-aop-xml</module>
-
+    <module>005-spring-framework-aop-annotation</module>
 
   </modules>
   <packaging>pom</packaging>

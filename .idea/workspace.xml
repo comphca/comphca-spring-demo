@@ -5,30 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c80f21d7-1c3e-412e-8bfb-3d8e9078c064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/java/com/comphca/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/java/com/comphca/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/java/com/comphca/service/AopDemoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/resources/aspects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/test/java/com/comphca/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/aspects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/com/comphca/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/com/comphca/aspect/LogAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/com/comphca/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/com/comphca/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/com/comphca/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/daos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/services.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/test-classes/com/comphca/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/service/CGLibProxyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/service/IJDKProxyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/service/JDKProxyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/test/java/com/comphca/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/aspects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/aspect/LogAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/dao/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/service/AopDemoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/daos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/services.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/test-classes/com/comphca/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/001-spring-framework-helloworld-xml/src/main/resources/services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/001-spring-framework-helloworld-xml/src/main/resources/services.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/src/main/java/com/comphca/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/src/main/java/com/comphca/aspect/LogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/src/main/java/com/comphca/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/src/main/java/com/comphca/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/target/classes/com/comphca/aspect/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/target/classes/com/comphca/aspect/LogAspect.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/target/classes/com/comphca/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/003-spring-framework-helloworld-annotation/target/classes/com/comphca/service/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/resources/aspects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/resources/aspects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -139,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.comphca.App" />
-      <module name="001-spring-framework-helloworld-xml" />
+    <configuration name="App (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.comphca.App" />
+      <module name="005-spring-framework-aop-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.comphca.*" />
+          <option name="PATTERN" value="com.comphca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,10 +165,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App (4)" />
+        <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653408939603</updated>
-      <workItem from="1653408942307" duration="9818000" />
+      <workItem from="1653408942307" duration="11679000" />
     </task>
     <task id="LOCAL-00001" summary="AOP">
       <created>1653484312175</created>
@@ -204,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653486289911</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="基于注解">
+      <created>1653494247728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653494247728</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
