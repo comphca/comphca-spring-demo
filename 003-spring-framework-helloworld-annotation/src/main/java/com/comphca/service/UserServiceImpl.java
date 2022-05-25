@@ -19,6 +19,7 @@ public class UserServiceImpl {
     private UserMapper userMapper;
 
     public List<User> findUserList() {
+        System.out.println("findUserList");
         return userMapper.findUserList();
     }
 

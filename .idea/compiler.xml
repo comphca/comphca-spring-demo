@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="002-spring-framework-helloworld-javaConfig" />
+        <module name="004-spring-framework-aop-xml" />
         <module name="001-spring-framework-helloworld-xml" />
         <module name="003-spring-framework-helloworld-annotation" />
       </profile>

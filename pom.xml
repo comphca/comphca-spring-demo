@@ -11,6 +11,8 @@
     <module>001-spring-framework-helloworld-xml</module>
     <module>002-spring-framework-helloworld-javaConfig</module>
     <module>003-spring-framework-helloworld-annotation</module>
+    <module>004-spring-framework-aop-xml</module>
+
 
   </modules>
   <packaging>pom</packaging>

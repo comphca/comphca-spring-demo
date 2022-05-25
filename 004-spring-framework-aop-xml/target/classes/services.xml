@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
  http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!-- services -->
-    <bean id="userService" class="com.comphca.service.AopDemoServiceImpl">
+    <bean id="userService" class="com.comphca.service.UserServiceImpl">
 
         <property name="userMapper" ref="userMapper"/>
         <!-- additional collaborators and configuration for this bean go here -->
