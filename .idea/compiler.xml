@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="002-spring-framework-helloworld-javaConfig" />
         <module name="001-spring-framework-helloworld-xml" />
+        <module name="003-spring-framework-helloworld-annotation" />
       </profile>
     </annotationProcessing>
   </component>
