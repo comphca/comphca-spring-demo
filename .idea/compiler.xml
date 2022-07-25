@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="002-spring-framework-helloworld-javaConfig" />
         <module name="005-spring-framework-aop-annotation" />
+        <module name="006-spring-framework-bean-lifecycle" />
         <module name="004-spring-framework-aop-xml" />
         <module name="001-spring-framework-helloworld-xml" />
         <module name="003-spring-framework-helloworld-annotation" />

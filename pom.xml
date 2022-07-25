@@ -13,6 +13,8 @@
     <module>003-spring-framework-helloworld-annotation</module>
     <module>004-spring-framework-aop-xml</module>
     <module>005-spring-framework-aop-annotation</module>
+    <module>006-spring-framework-bean-lifecycle</module>
+
 
   </modules>
   <packaging>pom</packaging>

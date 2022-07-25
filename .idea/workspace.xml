@@ -5,28 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c80f21d7-1c3e-412e-8bfb-3d8e9078c064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/service/CGLibProxyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/service/IJDKProxyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/main/java/com/comphca/service/JDKProxyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/src/test/java/com/comphca/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/aspects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/aspect/LogAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/pojo/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/service/AopDemoServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/com/comphca/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/daos.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/classes/services.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/005-spring-framework-aop-annotation/target/test-classes/com/comphca/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/config/beanConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/processor/MyBeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/processor/MyBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/processor/MyInstantiationAwareBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/test/java/com/comphca/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/target/classes/com/comphca/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/006-spring-framework-bean-lifecycle/target/test-classes/com/comphca/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/001-spring-framework-helloworld-xml/src/main/resources/services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/001-spring-framework-helloworld-xml/src/main/resources/services.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/resources/aspects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/src/main/resources/aspects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/aspects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/004-spring-framework-aop-xml/target/classes/aspects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +51,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\JAVA\Maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../SoftWare/Tools/Maven/apache-maven-3.6.3" />
+        <option name="mavenHome" value="C:\Data\SoftWare\Tools\Maven\apache-maven-3.6.3" />
         <option name="userSettingsFile" value="C:\Users\comphca\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -69,15 +63,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="JavaMethodFindUsagesOptions.isSearchForTextOccurrences" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../geektime-spring-family-master/Chapter 2/multi-datasource-demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -85,23 +81,10 @@
       <recent name="C:\Data\Project\comphca-spring-demo\001-spring-framework-helloworld-xml\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App (4)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.comphca.App" />
       <module name="001-spring-framework-helloworld-xml" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.comphca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.comphca.App" />
-      <module name="002-spring-framework-helloworld-javaConfig" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.comphca.*" />
@@ -151,24 +134,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.comphca.App" />
+      <module name="006-spring-framework-bean-lifecycle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.comphca.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (4)" />
         <item itemvalue="Application.App (5)" />
         <item itemvalue="Application.App (3)" />
-        <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653408939603</updated>
-      <workItem from="1653408942307" duration="11679000" />
+      <workItem from="1653408942307" duration="13141000" />
+      <workItem from="1653714480274" duration="3558000" />
+      <workItem from="1653800360892" duration="9948000" />
+      <workItem from="1658592884816" duration="20743000" />
     </task>
     <task id="LOCAL-00001" summary="AOP">
       <created>1653484312175</created>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653494247728</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="aop基于注解：1.正常结束：环绕（前）--前置--方法本省--后置通知--最终通知--环绕（后）；2.异常：环绕（前）--前置--方法本身--异常--最终">
+      <created>1653496866259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653496866259</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,11 +234,86 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="AOP" />
     <MESSAGE value="基于Java配置" />
     <MESSAGE value="基于注解" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于注解" />
+    <MESSAGE value="aop基于注解：1.正常结束：环绕（前）--前置--方法本省--后置通知--最终通知--环绕（后）；2.异常：环绕（前）--前置--方法本身--异常--最终" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop基于注解：1.正常结束：环绕（前）--前置--方法本省--后置通知--最终通知--环绕（后）；2.异常：环绕（前）--前置--方法本身--异常--最终" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar!/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.class</url>
+          <line>1031</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-aop/5.3.9/spring-aop-5.3.9.jar!/org/springframework/aop/config/AopNamespaceHandler.class</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/App.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar!/org/springframework/context/support/AbstractRefreshableConfigApplicationContext.class</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar!/org/springframework/context/support/AbstractXmlApplicationContext.class</url>
+          <line>32</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>285</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/006-spring-framework-bean-lifecycle/src/main/java/com/comphca/processor/MyBeanFactoryPostProcessor.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>288</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>391</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class</url>
+          <line>88</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-beans/5.3.9/spring-beans-5.3.9.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class</url>
+          <line>357</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/JAVA/Maven/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>387</line>
+          <properties class="org.springframework.context.support.AbstractApplicationContext" method="postProcessBeanFactory">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
